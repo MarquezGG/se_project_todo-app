@@ -46,7 +46,7 @@ class FormValidator {
     this._inputList.forEach((inputElement) => {
       inputElement.addEventListener("input", () => {
         this._checkInputValidity(inputElement);
-        this._toggleButtonState(inputList, this._buttonElement);
+        this._toggleButtonState();
       });
     });
   }
@@ -56,7 +56,6 @@ class FormValidator {
       this._hideInputError(inputElement);
     });
     this._toggleButtonState();
-    this._buttonElement.classList.add(this._inactiveButtonClass);
   }
 
   _toggleButtonState() {
