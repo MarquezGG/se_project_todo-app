@@ -27,13 +27,6 @@ A clean todo application built with vanilla JavaScript.
 - Check the checkbox to mark a todo as completed
 - Click the delete button to remove a todo
 
-## Deployment
+## Link to the project
 
-This project can be deployed on GitHub Pages or any static hosting service.
-
-For GitHub Pages:
-
-1. Push to GitHub repository
-2. Go to Settings → Pages
-3. Select branch and folder
-4. Your site will be available at `https://github.com/MarquezGG/se_project_todo-app`
+GitHub Pages: `https://MarquezGG.github.io/se_project_todo-app`
